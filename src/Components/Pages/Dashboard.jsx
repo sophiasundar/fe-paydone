@@ -35,7 +35,7 @@ const Dashboard = () => {
     
     <div className={`p-4 ${theme === 'light' ? 'bg-white text-black' : 'bg-gray-900 text-white'}`}>
       <TopBar/>
-      <h1 className="text-2xl font-bold mb-4">Payments Record Dashboard</h1>
+      <h1 className="text-2xl font-bold mb-4">User Payments Record Dashboard</h1>
      
       <PaymentForm
         onSubmit={editMode ? handleUpdate : null}

@@ -7,7 +7,7 @@ const PaymentComponent = () => {
   const dispatch = useDispatch();
   const theme = useSelector((state) => state.theme.theme);
   const [amount, setAmount] = useState(5); // Example amount in INR
-
+  console.log("PaymentComponent is rendering");
   const handlePayment = async () => {
     try {
       // Step 1: Create Razorpay Order

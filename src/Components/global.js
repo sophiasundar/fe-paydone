@@ -1,1 +1,1 @@
-export const API =   'http://localhost:8000' ;
+export const API =   'https://server-pay-smt3.onrender.com' ;

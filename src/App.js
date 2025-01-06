@@ -26,11 +26,14 @@ function App() {
            <Route path='/' element={<Login/>}></Route>
         <Route path='/register' element={<Register/>}></Route>
 
-        <Route path='/home' element={
+        <Route
+        path="/home"
+        element={
           <ProtectedRoute>
-          <PaymentComponent/>
+            <PaymentComponent/> 
           </ProtectedRoute>
-          }></Route>
+        }
+      />
 
         <Route path='/payment-record' element={
           <ProtectedRoute>
