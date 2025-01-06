@@ -32,15 +32,18 @@ const TopBar = () => {
         </div>
       </Link>
 
-      {/* User Payment Record Button */}
       <button
         onClick={() => navigate('/payment-record')}
-        className='hidden md:flex bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-2 rounded-full shadow-md transition duration-300 hover:scale-105'
+        className='flex bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-2 rounded-full shadow-md transition duration-300 hover:scale-105'
       >
-        User Payment Record
+        User Record
       </button>
 
+     
       <div className="flex gap-4 items-center">
+         {/* User Payment Record Button */}
+     
+
         {/* Theme Toggle Button with Icon */}
         <button
           onClick={handleThemeToggle}
